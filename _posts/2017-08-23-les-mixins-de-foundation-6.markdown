@@ -4,7 +4,7 @@ title:  "Les Mixins de Foundation 6"
 date:   2017-08-23 12:10:42 +0000
 categories: frontend
 ---
-Dans le jargon des `Pré-Processeur css`, un mixin c'est un `fonction`. Il prend un ou plusieurs paramétres.
+Dans le jargon des `pré-processeurs css`, un mixin c'est une `fonction`. Il prend un ou plusieurs paramétres.
 
 #### Qu'est un pré-pocesseur css?
 
