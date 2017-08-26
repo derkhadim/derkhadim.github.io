@@ -16,11 +16,11 @@ Les pré-processeurs sont outils qui premettent de dynamiser le css. Le `CSS` n'
 }
 {% endhighlight %}
 
-Il n'y a pas de possbilité en css d'ecrire une fonction, heritage, boucles, les conditions etc. C'est là qu'arrivent les pré-processeurs. Le plus connu et le plus utilisé se nomme `SASS`, il y'en a d'autre LESS, STYLUS etc.
+Il n'y a pas de possbilité en css d'ecrire une fonction, heritage, boucles, les conditions etc. C'est là qu'arrivent les pré-processeurs apportant ainsi ces fonctionalités au `css. Le plus connu et le plus utilisé se nomme `SASS`, il y'en a d'autre LESS, STYLUS etc.
 
 Le `SASS` (Syntactically Awesome Stylesheets) a langage de script qui compile du css. Il a été créé par Hampton Catlin (créateur de `haml`) et Nathalie Weizenbaum en 2007.
 
-`SASS` a beaucoup d'aventage, la rapidité ainsi que les autres fonctionnalité à son bord (les variales, Nesting, Mixins, Extand, Opération sur les couleurs, If/Else, Loop, Math, @import, etc... )
+`SASS` a beaucoup d'aventage, la rapidité ainsi que les autres fonctionnalités et concepts (les variales, Nesting, Mixins, Extand, Opération sur les couleurs, If/Else, Loop, Math, @import, etc... )
 
 Il y'a deux types de syntaxe: la version nommé `syntaxe indentée` plus proche de `haml`
 
@@ -56,6 +56,7 @@ $blue: blue;
 
 #### Maintenant que vous savais les pré-processeurs, écrivons un mixin
 Je veux ajouter l'effet arrondi et un ombre sur les boutons, formulaire, card etc. 
+Ex: Une maquette oû les boutons, form, cards sont tous arrondi avec un hombre. Au lieu d'écrire des lignes de code sur les boutons, les form, card etc... Ecrivons un mixins (une fonction) à chaque fois que l'on a besoin de cette effect (DRY)
 
 {% highlight css %}
 <!-- Sass syntax -->
@@ -102,12 +103,14 @@ Je veux ajouter l'effet arrondi et un ombre sur les boutons, formulaire, card et
 }
 {% endhighlight %}
 
-##DEMO
+## DEMO
 
 #### Ok, revenons à l'objet de la présentation: `Les Mixins de Foundation 6`
 
-Foundation est le framework css responsive le plus avancé au monde. Tout les component des foundations ont des mixins (Button, Grid, Forms, Pagination etc ...)
+Foundation est le framework css responsive le plus avancé au monde. Il est Mobile first, modulable etc. Tout les component des foundations ont des mixins (Button, Grid, Forms, Pagination etc ...)
 
 
 
-#DEMO
+# DEMO
+
+# Message
